@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Class-Path: mysql-connector-java-5.1.25.jar commons-dbcp-1.4.jar commo
+ ns-pool-1.6.jar hibernate-core-4.2.7.SP1.jar antlr-2.7.7.jar jboss-lo
+ gging-3.1.0.GA.jar dom4j-1.6.1.jar javassist-3.15.0-GA.jar jboss-tran
+ saction-api_1.1_spec-1.0.1.Final.jar hibernate-jpa-2.0-api-1.0.1.Fina
+ l.jar hibernate-commons-annotations-4.0.4.Final.jar hibernate-ehcache
+ -4.2.7.SP1.jar ehcache-core-2.4.3.jar slf4j-api-1.7.5.jar hibernate-v
+ alidator-5.0.1.Final.jar validation-api-1.1.0.Final.jar classmate-0.8
+ .0.jar jboss-logging-annotations-1.2.0.Beta1.jar cglib-3.0.jar asm-4.
+ 0.jar commons-collections-3.2.1.jar commons-lang3-3.1.jar commons-io-
+ 2.4.jar commons-beanutils-1.8.3.jar commons-logging-1.1.1.jar commons
+ -codec-1.8.jar activation-1.1.1.jar slf4j-log4j12-1.7.5.jar log4j-1.2
+ .17.jar jcl-over-slf4j-1.7.5.jar jsf-api-2.1.7.jar jsf-impl-2.1.7.jar
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich">
+<h:head>
+	<link href="css/default.css" rel="stylesheet" type="text/css" />
+	<title>Hello Zara</title>
+</h:head>
+<h:body>
+	<h:form>
+		<rich:tabPanel style="width:40%" switchType="ajax">
+			<rich:tab render="time">
+				<f:facet name="header">
+					<h:panelGrid columns="2">
+						<h:outputText value="San Francisco" />
+						<h:graphicImage value="/images/sf_flag.jpg" height="25" width="25" />
+					</h:panelGrid>
+				</f:facet>
+				<h:outputText
+					value="San Francisco is a major city in northern California, on the West Coast of the United States" />
+			</rich:tab>
+			<rich:tab render="time">
+				<f:facet name="header">
+					<h:panelGrid columns="2">
+						<h:outputText value="Los Angeles" />
+						<h:graphicImage value="/images/la_flag.png" height="25" width="25" />
+					</h:panelGrid>
+				</f:facet>
+				<h:outputText
+					value="Los Angeles is a major city in southern California, on the West Coast of
+the United States" />
+			</rich:tab>
+			<rich:tab render="time">
+				<f:facet name="header">
+					<h:panelGrid columns="2">
+						<h:outputText value="New York City" />
+						<h:graphicImage value="/images/nyc_flag.png" height="25"
+							width="25" />
+					</h:panelGrid>
+				</f:facet>
+				<h:outputText
+					value="New York City is a major city on the East Coast of the United States" />
+			</rich:tab>
+		</rich:tabPanel>
+		<h:outputText value="#{timeBean.now}" id="time" />
+	</h:form>
+</h:body>
+</html>
