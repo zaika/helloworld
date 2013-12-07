@@ -9,5 +9,6 @@
 .classpath
 .project
 .springBeans
+.metadata
 /log
 
