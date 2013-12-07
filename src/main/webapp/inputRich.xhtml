@@ -13,7 +13,7 @@
 	<h:form>
 		<h:panelGrid>
 			<rich:inplaceSelect defaultLabel="Double click to select items type" value="#{inplaceSelectBean.currentType}"
-				valueChangeListener="#{inplaceSelectBean.valueChanged}" editEvent="dblclick">
+				valueChangeListener="#{inplaceSelectBean.valueChanged}" editEvent="dblclick" >
 				<f:selectItems value="#{inplaceSelectBean.firstList}" />
 				<a4j:ajax event="change" render="second" execute="@this" />
 			</rich:inplaceSelect>
